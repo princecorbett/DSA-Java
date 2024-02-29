@@ -14,3 +14,4 @@ public class area_triangle {
         System.out.println("The area is :" + area);
     }
 }
+
