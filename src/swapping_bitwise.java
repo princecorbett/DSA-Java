@@ -7,4 +7,5 @@ public class swapping_bitwise {
         a=a^b;
         System.out.println(+a+" "+b);
     }
+
 }
