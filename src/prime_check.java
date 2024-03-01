@@ -10,18 +10,15 @@ public class prime_check {
         {
             n = scn.nextInt();
             int count = 0;
-<<<<<<< HEAD
             for(int div=2 ; div*div <=n ; div++)
               {
                 if(n % div == 0) {
                     count++;
                     break;
-=======
             for(int div=1 ; div <=n ; div++)
               {
                 if(n % div == 0) {
                     count++;
->>>>>>> origin/master
                 }
               }
             if(count == 2)
@@ -33,7 +30,5 @@ public class prime_check {
                 System.out.println("not prime");
             }
             }
-
-
     }
 }
