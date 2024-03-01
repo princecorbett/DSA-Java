@@ -6,7 +6,7 @@ public class area_triangle {
         float area;
         float height;
         float base;
-        System.out.println("Enter base and height of the triangle:  ");
+        System.out.println("Enter the base and height of the triangle:  ");
         Scanner sc = new Scanner(System.in);
         height=sc.nextFloat();
         base=sc.nextFloat();
